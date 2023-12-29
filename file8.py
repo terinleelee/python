@@ -1,0 +1,5 @@
+f=open("alphabet.txt","r")
+index=int(input("index의 위치를 입력해주세요."))
+f.seek(index)
+print(f.read())
+f.close()    

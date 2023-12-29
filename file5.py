@@ -1,0 +1,6 @@
+f=open("profile.txt","w")
+name= input("name : ")
+age = input("age : ")
+f.write("name : %s\n" % name)
+f.write("age : %s\n" % age)
+f.close()
